@@ -1,0 +1,70 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color : white
+  }
+  
+  #app {
+    max-width: 600px;
+    margin: 20px;
+    padding: 20px;
+    background: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  #timer-input div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  input {
+    width: 50px;
+    padding: 5px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: yellow;
+  }
+  
+  #timers-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .timer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: black;
+    border-radius: 5px;
+  }
+  
+  .timer.ended {
+    background: #ffcccc;
+    color: black;
+  }
+  
